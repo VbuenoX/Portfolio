@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.6.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./src/Logosite.png" type="image/x-icon" />
+    <title>Portfólio</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#" class="logo">
+          <h1>Vitor <span>B</span>ueno</h1>
+        </a>
+
+        <ul class="navbar">
+          <li><a href="#" class="active">Ínicio</a></li>
+          <li><a href="#about">Quem sou</a></li>
+          <li><a href="#tech">Conhecimentos</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#exp">Experiencias</a></li>
+        </ul>
+
+        <i class="ri-menu-line" id="menu-icon"></i>
+      </nav>
+    </header>
+
+    <main id="main">
+      <div class="div-home">
+        <div class="home">
+          <h3>FullStack</h3>
+          <h2>Developer.</h2>
+          <p>
+            Desenvolvendo produtos frontend e backend sólidos e escaláveis com
+            ótimas experiências de usuário.
+          </p>
+        </div>
+
+        <div class="image-home">
+          <img src="./src/V.png" alt="placeholder" />
+        </div>
+      </div>
+
+      <div class="div-about" id="about">
+        <div class="image-about">
+          <img src="./src/Foto.png" alt="placeholder" />
+        </div>
+
+        <div class="about">
+          <h4>Quem sou</h4>
+          <h2>Vitor Bueno</h2>
+          <h3>FullStack Developer</h3>
+          <p>
+            Meu nome é Vitor Bueno, estou cursando Ciências da Computação, sou
+            desenvolvedor FullStack, utilizando tecnologias voltadas para
+            JavaScript, e WordPress. Atualmente sou freelancer como FrontEnd
+            Developer. Desenvolvo interfaces modernas, concentrado em
+            performance, animações, responsividade e SEO.
+          </p>
+          <div class="div-icon">
+            <a
+              href="https://www.linkedin.com/in/dev-vitorbueno/"
+              target="_blank"
+              ><img
+                src="./src/LinkedinLogo.png"
+                alt="LinkedinLogo"
+                class="icon-about"
+            /></a>
+
+            <a href="https://github.com/VbuenoX" target="_blank">
+              <img
+                src="./src/GithubLogo.png"
+                alt="GithubLogo"
+                class="icon-about"
+            /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="div-tech" id="tech">
+        <div class="content-tech">
+          <div class="tech">
+            <h2>Conhecimentos <span>.</span></h2>
+            <p>Principais tecnologias que tenho conhecimento</p>
+            <ul id="text"></ul>
+          </div>
+
+          <div class="box-cards">
+            <article class="tech-box">
+              <p>HTML</p>
+              <img src="./src/HTML.png" alt="" />
+            </article>
+
+            <article class="tech-box">
+              <p>CSS</p>
+              <img src="./src/CSS.png" alt="" />
+            </article>
+
+            <article class="tech-box">
+              <p>JavaScript</p>
+              <img src="./src/Javascript.png" alt="" />
+            </article>
+
+            <article class="tech-box">
+              <p>NodeJS</p>
+              <img src="./src/Node.png" alt="" />
+            </article>
+
+            <article class="tech-box">
+              <p>Sass</p>
+              <img src="./src/Sass.png" alt="" />
+            </article>
+
+            <article class="tech-box">
+              <p>Bootstrap</p>
+              <img src="./src/Bootstrap.png" alt="" />
+            </article>
+
+            <article class="tech-box">
+              <p>ReactJS</p>
+              <img src="./src/React.png" alt="" />
+            </article>
+
+            <article class="tech-box">
+              <p>NextJS</p>
+              <img src="./src/Next.png" alt="" />
+            </article>
+
+            <article class="tech-box">
+              <p>Github</p>
+              <img src="./src/Git.png" alt="" />
+            </article>
+
+            <article class="tech-box">
+              <p>Typescript</p>
+              <img src="./src/Typescript.png" alt="" />
+            </article>
+
+            <article class="tech-box">
+              <p>Python</p>
+              <img src="./src/Python.png" alt="" />
+            </article>
+
+            <article class="tech-box">
+              <p>MongoDB</p>
+              <img src="./src/MongoDB.png" alt="" />
+            </article>
+
+            <article class="tech-box">
+              <p>Figma</p>
+              <img src="./src/Figma.png" alt="" />
+            </article>
+
+            <article class="tech-box">
+              <p>Wordprees</p>
+              <img src="./src/Wordpress.png" alt="" />
+            </article>
+
+            <article class="tech-box">
+              <p>AWS</p>
+              <img src="./src/AWS.png" alt="" />
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <div class="div-projects" id="projects">
+        <div class="projects">
+          <h2>Projetos <span>.</span></h2>
+        </div>
+
+        <div class="cards-projects">
+          <div>
+            <h3 class="titulo-card">Web Scraping</h3>
+            <p class="description-card">
+              Projeto desenvolvido durante o estágio para extração de dados e
+              implementação no banco de dados.
+            </p>
+            <a href="" target="_blank"> </a>
+          </div>
+
+          <div>
+            <h3 class="titulo-card">E-Commerce Cosméticos</h3>
+            <p class="description-card">
+              Uma loja virtual de cosméticos, desenvolvida com Wordprees e
+              Elementor
+            </p>
+            <a href="https://dellapele.com.br" target="_blank">
+              <button class="card-button">Visualizar projeto</button>
+            </a>
+          </div>
+
+          <div>
+            <h3 class="titulo-card">Calculadora</h3>
+            <p class="description-card">
+              Uma calculadora desenvolvida apenas com HTML, CSS, e JavaScript
+              puro!
+            </p>
+            <a href="https://calculadora.desenvolvx.com.br" target="_blank">
+              <button class="card-button">Visualizar projeto</button>
+            </a>
+          </div>
+
+          <div>
+            <h3 class="titulo-card">Clínica Odontológica</h3>
+            <p class="description-card">
+              Uma Landing page e blog para uma clínica odontológica desenvolvida
+              em Wordprees e Elementor
+            </p>
+            <a href="https://odontoinovare.desenvolvx.com.br" target="_blank">
+              <button class="card-button">Visualizar projeto</button>
+            </a>
+          </div>
+
+          <div>
+            <h3 class="titulo-card">JS BookStore em breve...</h3>
+            <p class="description-card">
+              Uma livraria online desenvolvida com HTML, CSS, e JavaScript
+              focado em POO!
+            </p>
+            <a href="" target="_blank">
+              <button class="card-button">Visualizar projeto</button>
+            </a>
+          </div>
+
+          <div>
+            <h3 class="titulo-card">Netflix em breve...</h3>
+            <p class="description-card">
+              Uma plataforma de cursos inspirada no netflix, desenvolvida com
+              NodeJS, NextJS, MongoDB, e hospedar com AWS
+            </p>
+            <a href="" target="_blank">
+              <button class="card-button">Visualizar projeto</button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="div-exp" id="exp">
+        <div class="experiencias">
+          <h2>Experiências <span>.</span></h2>
+        </div>
+
+        <div class="cards-projects">
+          <div>
+            <h3 class="titulo-card">Estagiário Graduação</h3>
+            <p class="business-card">Sotreq S.A.</p>
+            <p class="description-card">
+              Desenvolvo automações utilizando Python, e JavaScript para
+              aplicações web e servidor
+            </p>
+          </div>
+
+          <div>
+            <h3 class="titulo-card">FullStack Developer</h3>
+            <p class="business-card">Freelancer</p>
+            <p class="description-card">
+              Desenvolvendo sites e aplicações web com foco em FrontEnd e
+              BackEnd
+            </p>
+          </div>
+
+          <div>
+            <h3 class="titulo-card">Em breve...</h3>
+            <p class="business-card">Em breve...</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="content-footer">
+          <div class="div-footer2">
+            <div class="div-footer">
+              <img src="./src/chamada-telefonica.png" alt="" />
+              <a href="https://wa.me/5531991379417" target="_blank"
+                >(31) 99137-9417</a
+              >
+            </div>
+            <div class="div-footer">
+              <img src="./src/envelope (1).png" alt="" />
+              <p>buenovit@hotmail.com</p>
+            </div>
+          </div>
+          <div class="div-footer">
+            <p id="poweredby">Powered by</p>
+            <img src="./src/Logosite.png" alt="Logo" />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
